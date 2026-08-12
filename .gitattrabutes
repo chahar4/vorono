@@ -1,0 +1,7 @@
+# Enforce LF for all text files in the repository
+* text=auto eol=lf
+
+# Explicitly mark binary files to prevent conversion
+*.png binary
+*.jpg binary
+*.exe binary
